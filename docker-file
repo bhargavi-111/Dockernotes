@@ -1,11 +1,13 @@
  Syntax:
- `FROM`         Base image            
- `WORKDIR`     Set working directory 
- `COPY`        Copy files            
- `ADD`         Copy + extract        
- `RUN`         Execute commands      
- `EXPOSE`      Document port         
- `ENV`         Environment variables 
- `CMD`         Default command       
- `ENTRYPOINT`  Main command          
- `LABEL`       Metadata              |
+>FROM-used to declare base image
+ex:FROM Python
+>LABEL-used to add description about image.
+>MAINTAINER- used to define author details.
+>ADD-used to copy files from local to container and it will be download the files from internet and send those files to container.
+>WORKDIR-used to set a default path for container.
+>COPY-used to copy files from local to container.
+>ARG-used to pass variables while we build image,these vars will not be available inside the container,we can overwrite these values while we build the image.
+>ENV-used to pass variables while we build image.these vars will be available inside the container.
+>RUN-used to execute the commands.
+>EXPOSE-used to expose the port number.
+
