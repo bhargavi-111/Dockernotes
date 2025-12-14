@@ -1,0 +1,11 @@
+ Syntax:
+ `FROM`         Base image            
+ `WORKDIR`     Set working directory 
+ `COPY`        Copy files            
+ `ADD`         Copy + extract        
+ `RUN`         Execute commands      
+ `EXPOSE`      Document port         
+ `ENV`         Environment variables 
+ `CMD`         Default command       
+ `ENTRYPOINT`  Main command          
+ `LABEL`       Metadata              |
