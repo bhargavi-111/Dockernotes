@@ -7,3 +7,16 @@ A Docker image is a read-only template that contains everything needed to run an
 Container - A container is a lightweight virtualization technology that packages an application with its dependencies and runs using the host OS kernel.
 Launch an ec2 > install docker(yum install docker -y) > docker version > systemctl start docker.
 Docker consists of the Docker Client, Docker Daemon, Images, Containers, Registry, and Docker Engine.
+Docker file is used to create images.
+It has components :
+1.FROM-used to declare base image
+ex:FROM Python
+2.LABEL-used to add description about image.
+3.MAINTAINER- used to define author details.
+4.COPY-used to copy files from local to container.
+5.ADD-used to copy files from local to container and it will be download the files from internet and send those files to container.
+
+
+
+
+
