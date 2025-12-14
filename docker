@@ -1,0 +1,8 @@
+Docker is used to containerize applications so they can run consistently across different environments.
+containerization = application code + dependencies
+Architectures:
+Monolithic Architecture:Entire application built as one single unit.
+Microservices Architecture: Application split into small independent services.
+A Docker image is a read-only template that contains everything needed to run an application and is used to create containers.
+Container - A container is a lightweight virtualization technology that packages an application with its dependencies and runs using the host OS kernel.
+Launch an ec2 > install docker(yum install docker -y) > docker version > systemctl start docker
