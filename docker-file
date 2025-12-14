@@ -8,6 +8,9 @@ ex:FROM Python
 >COPY-used to copy files from local to container.
 >ARG-used to pass variables while we build image,these vars will not be available inside the container,we can overwrite these values while we build the image.
 >ENV-used to pass variables while we build image.these vars will be available inside the container.
->RUN-used to execute the commands.
+>RUN-used to execute the commands while creating image.
 >EXPOSE-used to expose the port number.
+>CMD-used to execute commands while creating container.
+>ENTRYPOINT -used to execute commands while creating container.
+
 
